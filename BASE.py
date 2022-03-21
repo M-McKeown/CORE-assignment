@@ -18,7 +18,8 @@ def BASE(FileName):
     FileName=FileName.removesuffix(".seq") #Removing the .seq from the previous file so below we can save it as a .count
     FileName = "%s.count" % FileName
     outfile = open(FileName, 'w') #Writing a new file name with the base pairs counted
-    outfile.write(str(A) +"," + str(G) + "," + str(C) + "," + str(T) + "\n")
+    outfile.write(str(A) +"," + str(G) + "," + str(C) + "," + str(T) + "\n") #Here we are saving the four A,G,C,and T with commas between
     outfile.close()
 
 BASE(FileName=sys.argv[1]) #Asking user input for their file name to analyze
+#Alternative BASE(FileName=input("Please enter the FileName) #Asking user input for their file name to analyze

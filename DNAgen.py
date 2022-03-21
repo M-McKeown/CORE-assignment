@@ -9,7 +9,9 @@ def FASTAfile(FileName,Nb:int):                 #The custom function with FileNa
         outfile.write(random.choice(DNA))       #Random.choice comes from "random" package, allows each of DNA base pairs to be randomly selected from the vector with equal probability
     outfile.close()                             #Close the file
 FASTAfile(FileName=sys.argv[1], Nb=int(sys.argv[2])) #Sys.argv allows us to control input via bash/shell script
-#Alternative: FASTAfile(FileName=input("Please enter the file name"), Nb=int(input("Please enter the length of the DNA sequence"))) #Ask user input in Python
+
+#Alternative: 
+#FASTAfile(FileName=input("Please enter the file name"), Nb=int(input("Please enter the length of the DNA sequence"))) #Ask user input in Python
 
 #To summarize above:
 #We have a custom function with parameters FileName and Nb

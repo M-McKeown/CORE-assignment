@@ -1,4 +1,4 @@
-#Theme, package and data Setup
+#Theme, package and data setup
 #----------------------------------------------------
 library(ggplot2) #Package to make the histogram
 library(gridExtra) #Package for grid arranging

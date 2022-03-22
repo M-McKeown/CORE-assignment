@@ -31,7 +31,8 @@ BASE(FileName=sys.argv[1]) #Taking the user input from the bash/shell script whi
 
 #Summary
 #----------------------------------------------------
-#We generated .seq files from DNAgen.py where now we are reading the DNA sequence and storing the string on DNAdata.
+#We generated .seq files from DNAgen.py where now we are reading the DNA sequence and storing the string on DNA_data.
 #The .seq files is closed, then we scan through the DNA_data for the base pairs. Using sub, each unwanted base pair is removed
 #which leaves only the desired base pairs in the string. The length of the leftover/modified string counts the number of base pairs.
 #The output is printed and then results saved to a FileName.count script by removing the suffix ".seq" of the FileName
+#----------------------------------------------------

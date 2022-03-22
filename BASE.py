@@ -7,7 +7,7 @@ import sys
 #Custum function that analyzes input from DNAgen
 #----------------------------------------------------
 def BASE(FileName):
-    FileName = "%s.seq" % FileName #We take user filename input and then replace %s location to create our .seq file.
+    FileName = "%s.seq" % FileName #We take user filename input and then replace %s location to read our .seq file.
     infile = open(FileName, 'r')
     for line in infile:
         DNA_data= (line.strip('\n')) #We are takihg the string of base pairs from the FileName and also removing the string \n from the line via .strip()

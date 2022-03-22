@@ -6,7 +6,7 @@ source("https://bit.ly/theme_pub") #Finding the theme
 theme_set(theme_pub()) #Set the theme
 
 setwd("/Users/MMckeown/Desktop/Coding/BIOL812") #Absolute directory pathway setup
-Data<-read.csv("./Assignment/DNASeq.csv",header=F) #Reading the .csv file containing 4 columns, header = False because we do not have them
+Data<-read.csv("./CORE-Assignment/DNASeq.csv",header=F) #Reading the .csv file containing 4 columns, header = False because we do not have them
 #----------------------------------------------------
 
 #Convert columns to proportions (i.e divide each number by the total for each column)

@@ -29,7 +29,7 @@ Hist_Col4<-qplot(x=Thymine, data=Proportions)
 
 #Output to pdf
 #----------------------------------------------------
-pdf("4-panel graph.pdf")
+pdf("4-panel histogram.pdf")
 grid.arrange(Hist_Col1,Hist_Col2,Hist_Col3,Hist_Col4,nrow=2) #Using the gridExtra package to create a 4-panel graph
 dev.off()
 #----------------------------------------------------
